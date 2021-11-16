@@ -1,0 +1,149 @@
+Tue, 18 May 2021 12:51:37 WARNING From D:/学习数据/计算机视觉/YOLOv3_TensorFlow-master/train.py:45: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, use
+    tf.py_function, which takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    
+Tue, 18 May 2021 12:51:37 WARNING From C:\Users\lenovo\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\data\ops\iterator_ops.py:358: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+Tue, 18 May 2021 12:51:49 WARNING From C:\Users\lenovo\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Tue, 18 May 2021 12:51:49 INFO Restoring parameters from ./data/darknet_weights/yolov3.ckpt
+Tue, 18 May 2021 12:53:36 INFO Epoch: 0, global_step: 100 | loss: total: 11749.90, xy: 10.91, wh: 69.65, conf: 2491.63, class: 9177.71 | Last batch: rec: 0.018, prec: 0.000 | lr: 5.6622e-07
+Tue, 18 May 2021 12:54:29 INFO Epoch: 0, global_step: 200 | loss: total: 11077.21, xy: 10.84, wh: 66.37, conf: 1841.69, class: 9158.32 | Last batch: rec: 0.043, prec: 0.000 | lr: 1.1324e-06
+Tue, 18 May 2021 12:55:23 INFO Epoch: 0, global_step: 300 | loss: total: 10488.15, xy: 10.76, wh: 59.50, conf: 1319.00, class: 9098.88 | Last batch: rec: 0.209, prec: 0.000 | lr: 1.6987e-06
+Tue, 18 May 2021 12:56:16 INFO Epoch: 0, global_step: 400 | loss: total: 9946.76, xy: 10.43, wh: 51.69, conf: 1009.06, class: 8875.59 | Last batch: rec: 0.221, prec: 0.000 | lr: 2.2649e-06
+Tue, 18 May 2021 12:57:10 INFO Epoch: 0, global_step: 500 | loss: total: 9566.55, xy: 10.31, wh: 45.76, conf: 818.87, class: 8691.62 | Last batch: rec: 0.157, prec: 0.000 | lr: 2.8311e-06
+Tue, 18 May 2021 12:58:03 INFO Epoch: 0, global_step: 600 | loss: total: 9169.57, xy: 10.31, wh: 41.39, conf: 692.35, class: 8425.52 | Last batch: rec: 0.160, prec: 0.000 | lr: 3.3973e-06
+Tue, 18 May 2021 12:58:55 INFO Epoch: 0, global_step: 700 | loss: total: 8717.13, xy: 10.45, wh: 38.13, conf: 603.61, class: 8064.94 | Last batch: rec: 0.067, prec: 0.000 | lr: 3.9635e-06
+Tue, 18 May 2021 12:59:49 INFO Epoch: 0, global_step: 800 | loss: total: 8179.04, xy: 10.59, wh: 35.52, conf: 537.31, class: 7595.62 | Last batch: rec: 0.023, prec: 0.000 | lr: 4.5298e-06
+Tue, 18 May 2021 13:00:44 INFO Epoch: 0, global_step: 900 | loss: total: 7625.70, xy: 10.69, wh: 33.38, conf: 484.96, class: 7096.67 | Last batch: rec: 0.104, prec: 0.000 | lr: 5.096e-06
+Tue, 18 May 2021 13:01:37 INFO Epoch: 0, global_step: 1000 | loss: total: 7087.36, xy: 10.65, wh: 31.49, conf: 441.77, class: 6603.44 | Last batch: rec: 0.090, prec: 0.000 | lr: 5.6622e-06
+Tue, 18 May 2021 13:02:30 INFO Epoch: 0, global_step: 1100 | loss: total: 6589.77, xy: 10.49, wh: 29.83, conf: 405.61, class: 6143.83 | Last batch: rec: 0.032, prec: 0.000 | lr: 6.2284e-06
+Tue, 18 May 2021 13:03:22 INFO Epoch: 0, global_step: 1200 | loss: total: 6136.29, xy: 10.32, wh: 28.34, conf: 375.09, class: 5722.55 | Last batch: rec: 0.000, prec: 0.000 | lr: 6.7946e-06
+Tue, 18 May 2021 13:04:15 INFO Epoch: 0, global_step: 1300 | loss: total: 5732.29, xy: 10.14, wh: 27.06, conf: 349.10, class: 5345.98 | Last batch: rec: 0.009, prec: 0.000 | lr: 7.3609e-06
+Tue, 18 May 2021 13:05:07 INFO Epoch: 0, global_step: 1400 | loss: total: 5377.56, xy: 10.02, wh: 25.95, conf: 326.88, class: 5014.71 | Last batch: rec: 0.030, prec: 0.000 | lr: 7.9271e-06
+Tue, 18 May 2021 13:06:00 INFO Epoch: 0, global_step: 1500 | loss: total: 5062.12, xy: 9.90, wh: 24.99, conf: 307.54, class: 4719.69 | Last batch: rec: 0.047, prec: 0.000 | lr: 8.4933e-06
+Tue, 18 May 2021 13:06:53 INFO Epoch: 0, global_step: 1600 | loss: total: 4780.22, xy: 9.79, wh: 24.10, conf: 290.60, class: 4455.73 | Last batch: rec: 0.036, prec: 0.000 | lr: 9.0595e-06
+Tue, 18 May 2021 13:07:45 INFO Epoch: 0, global_step: 1700 | loss: total: 4527.85, xy: 9.68, wh: 23.30, conf: 275.61, class: 4219.26 | Last batch: rec: 0.012, prec: 0.000 | lr: 9.6257e-06
+Tue, 18 May 2021 13:08:38 INFO Epoch: 0, global_step: 1800 | loss: total: 4300.82, xy: 9.58, wh: 22.57, conf: 262.27, class: 4006.39 | Last batch: rec: 0.074, prec: 0.000 | lr: 1.0192e-05
+Tue, 18 May 2021 13:09:30 INFO Epoch: 0, global_step: 1900 | loss: total: 4096.17, xy: 9.50, wh: 21.96, conf: 250.35, class: 3814.36 | Last batch: rec: 0.071, prec: 0.000 | lr: 1.0758e-05
+Tue, 18 May 2021 13:10:23 INFO Epoch: 0, global_step: 2000 | loss: total: 3910.06, xy: 9.40, wh: 21.35, conf: 239.55, class: 3639.75 | Last batch: rec: 0.027, prec: 0.000 | lr: 1.1324e-05
+Tue, 18 May 2021 13:11:18 INFO Epoch: 0, global_step: 2100 | loss: total: 3741.08, xy: 9.32, wh: 20.82, conf: 229.83, class: 3481.12 | Last batch: rec: 0.043, prec: 0.000 | lr: 1.1891e-05
+Tue, 18 May 2021 13:12:10 INFO Epoch: 0, global_step: 2200 | loss: total: 3586.11, xy: 9.23, wh: 20.29, conf: 220.89, class: 3335.70 | Last batch: rec: 0.013, prec: 0.000 | lr: 1.2457e-05
+Tue, 18 May 2021 13:13:04 INFO Epoch: 0, global_step: 2300 | loss: total: 3444.49, xy: 9.17, wh: 19.85, conf: 212.83, class: 3202.64 | Last batch: rec: 0.069, prec: 0.000 | lr: 1.3023e-05
+Tue, 18 May 2021 13:13:56 INFO Epoch: 0, global_step: 2400 | loss: total: 3314.17, xy: 9.11, wh: 19.42, conf: 205.43, class: 3080.20 | Last batch: rec: 0.043, prec: 0.000 | lr: 1.3589e-05
+Tue, 18 May 2021 13:14:49 INFO Epoch: 0, global_step: 2500 | loss: total: 3194.22, xy: 9.04, wh: 19.04, conf: 198.59, class: 2967.55 | Last batch: rec: 0.063, prec: 0.000 | lr: 1.4155e-05
+Tue, 18 May 2021 13:15:42 INFO Epoch: 0, global_step: 2600 | loss: total: 3082.87, xy: 8.98, wh: 18.68, conf: 192.28, class: 2862.92 | Last batch: rec: 0.077, prec: 0.000 | lr: 1.4722e-05
+Tue, 18 May 2021 13:16:35 INFO Epoch: 0, global_step: 2700 | loss: total: 2979.17, xy: 8.92, wh: 18.34, conf: 186.43, class: 2765.48 | Last batch: rec: 0.052, prec: 0.000 | lr: 1.5288e-05
+Tue, 18 May 2021 13:17:27 INFO Epoch: 0, global_step: 2800 | loss: total: 2882.90, xy: 8.87, wh: 18.03, conf: 181.03, class: 2674.97 | Last batch: rec: 0.034, prec: 0.000 | lr: 1.5854e-05
+Tue, 18 May 2021 13:18:20 INFO Epoch: 0, global_step: 2900 | loss: total: 2793.13, xy: 8.82, wh: 17.73, conf: 175.96, class: 2590.62 | Last batch: rec: 0.100, prec: 0.000 | lr: 1.642e-05
+Tue, 18 May 2021 13:19:13 INFO Epoch: 0, global_step: 3000 | loss: total: 2709.02, xy: 8.78, wh: 17.44, conf: 171.24, class: 2511.56 | Last batch: rec: 0.076, prec: 0.000 | lr: 1.6987e-05
+Tue, 18 May 2021 13:20:07 INFO Epoch: 0, global_step: 3100 | loss: total: 2629.96, xy: 8.72, wh: 17.14, conf: 166.75, class: 2437.35 | Last batch: rec: 0.034, prec: 0.000 | lr: 1.7553e-05
+Tue, 18 May 2021 13:21:01 INFO Epoch: 0, global_step: 3200 | loss: total: 2555.99, xy: 8.67, wh: 16.89, conf: 162.59, class: 2367.84 | Last batch: rec: 0.071, prec: 0.000 | lr: 1.8119e-05
+Tue, 18 May 2021 13:21:55 INFO Epoch: 0, global_step: 3300 | loss: total: 2486.75, xy: 8.63, wh: 16.66, conf: 158.70, class: 2302.76 | Last batch: rec: 0.050, prec: 0.000 | lr: 1.8685e-05
+Tue, 18 May 2021 13:22:48 INFO Epoch: 0, global_step: 3400 | loss: total: 2421.45, xy: 8.59, wh: 16.43, conf: 155.05, class: 2241.39 | Last batch: rec: 0.108, prec: 0.000 | lr: 1.9251e-05
+Tue, 18 May 2021 13:23:41 INFO Epoch: 0, global_step: 3500 | loss: total: 2359.91, xy: 8.56, wh: 16.26, conf: 151.63, class: 2183.47 | Last batch: rec: 0.060, prec: 0.000 | lr: 1.9818e-05
+Tue, 18 May 2021 13:24:33 INFO Epoch: 0, global_step: 3600 | loss: total: 2301.19, xy: 8.51, wh: 16.05, conf: 148.34, class: 2128.29 | Last batch: rec: 0.071, prec: 0.000 | lr: 2.0384e-05
+Tue, 18 May 2021 13:25:26 INFO Epoch: 0, global_step: 3700 | loss: total: 2245.50, xy: 8.47, wh: 15.85, conf: 145.20, class: 2075.98 | Last batch: rec: 0.136, prec: 0.000 | lr: 2.095e-05
+Tue, 18 May 2021 13:26:21 INFO Epoch: 0, global_step: 3800 | loss: total: 2193.02, xy: 8.44, wh: 15.67, conf: 142.30, class: 2026.61 | Last batch: rec: 0.144, prec: 0.000 | lr: 2.1516e-05
+Tue, 18 May 2021 13:27:18 INFO Epoch: 0, global_step: 3900 | loss: total: 2143.28, xy: 8.41, wh: 15.51, conf: 139.54, class: 1979.82 | Last batch: rec: 0.035, prec: 0.000 | lr: 2.2083e-05
+Tue, 18 May 2021 13:28:14 INFO Epoch: 0, global_step: 4000 | loss: total: 2095.82, xy: 8.38, wh: 15.35, conf: 136.89, class: 1935.20 | Last batch: rec: 0.125, prec: 0.000 | lr: 2.2649e-05
+Tue, 18 May 2021 13:29:59 INFO Epoch: 0, global_step: 4100 | loss: total: 2050.47, xy: 8.34, wh: 15.18, conf: 134.36, class: 1892.59 | Last batch: rec: 0.123, prec: 0.000 | lr: 2.3215e-05
+Tue, 18 May 2021 13:30:55 INFO Epoch: 0, global_step: 4200 | loss: total: 2007.24, xy: 8.31, wh: 15.01, conf: 131.95, class: 1851.97 | Last batch: rec: 0.068, prec: 0.000 | lr: 2.3781e-05
+Tue, 18 May 2021 13:31:51 INFO Epoch: 0, global_step: 4300 | loss: total: 1966.01, xy: 8.28, wh: 14.88, conf: 129.66, class: 1813.19 | Last batch: rec: 0.034, prec: 0.000 | lr: 2.4347e-05
+Tue, 18 May 2021 13:32:50 INFO Epoch: 0, global_step: 4400 | loss: total: 1926.51, xy: 8.24, wh: 14.73, conf: 127.44, class: 1776.09 | Last batch: rec: 0.157, prec: 0.000 | lr: 2.4914e-05
+Tue, 18 May 2021 13:33:51 INFO Epoch: 0, global_step: 4500 | loss: total: 1888.97, xy: 8.22, wh: 14.60, conf: 125.36, class: 1740.79 | Last batch: rec: 0.188, prec: 0.000 | lr: 2.548e-05
+Tue, 18 May 2021 13:34:46 INFO Epoch: 0, global_step: 4600 | loss: total: 1852.93, xy: 8.19, wh: 14.48, conf: 123.36, class: 1706.90 | Last batch: rec: 0.130, prec: 0.000 | lr: 2.6046e-05
+Tue, 18 May 2021 13:35:40 INFO Epoch: 0, global_step: 4700 | loss: total: 1818.23, xy: 8.15, wh: 14.36, conf: 121.42, class: 1674.30 | Last batch: rec: 0.129, prec: 0.000 | lr: 2.6612e-05
+Tue, 18 May 2021 13:36:36 INFO Epoch: 0, global_step: 4800 | loss: total: 1785.10, xy: 8.13, wh: 14.24, conf: 119.58, class: 1643.15 | Last batch: rec: 0.208, prec: 0.000 | lr: 2.7179e-05
+Tue, 18 May 2021 13:37:31 INFO Epoch: 0, global_step: 4900 | loss: total: 1753.40, xy: 8.11, wh: 14.14, conf: 117.83, class: 1613.31 | Last batch: rec: 0.187, prec: 0.000 | lr: 2.7745e-05
+Tue, 18 May 2021 13:38:28 INFO Epoch: 0, global_step: 5000 | loss: total: 1723.03, xy: 8.09, wh: 14.04, conf: 116.16, class: 1584.74 | Last batch: rec: 0.080, prec: 0.000 | lr: 2.8311e-05
+Tue, 18 May 2021 13:39:23 INFO Epoch: 0, global_step: 5100 | loss: total: 1693.82, xy: 8.06, wh: 13.95, conf: 114.54, class: 1557.27 | Last batch: rec: 0.229, prec: 0.000 | lr: 2.8877e-05
+Tue, 18 May 2021 13:40:18 INFO Epoch: 0, global_step: 5200 | loss: total: 1665.64, xy: 8.04, wh: 13.86, conf: 112.99, class: 1530.75 | Last batch: rec: 0.200, prec: 0.000 | lr: 2.9443e-05
+Tue, 18 May 2021 13:41:15 INFO Epoch: 0, global_step: 5300 | loss: total: 1638.45, xy: 8.02, wh: 13.77, conf: 111.49, class: 1505.17 | Last batch: rec: 0.257, prec: 0.000 | lr: 3.001e-05
+Tue, 18 May 2021 13:42:10 INFO Epoch: 0, global_step: 5400 | loss: total: 1612.19, xy: 7.99, wh: 13.68, conf: 110.03, class: 1480.49 | Last batch: rec: 0.095, prec: 0.000 | lr: 3.0576e-05
+Tue, 18 May 2021 13:43:08 INFO Epoch: 0, global_step: 5500 | loss: total: 1586.80, xy: 7.96, wh: 13.58, conf: 108.62, class: 1456.63 | Last batch: rec: 0.174, prec: 0.000 | lr: 3.1142e-05
+Tue, 18 May 2021 13:44:06 INFO Epoch: 0, global_step: 5600 | loss: total: 1562.36, xy: 7.94, wh: 13.50, conf: 107.26, class: 1433.66 | Last batch: rec: 0.236, prec: 0.000 | lr: 3.1708e-05
+Tue, 18 May 2021 13:45:01 INFO Epoch: 0, global_step: 5700 | loss: total: 1538.73, xy: 7.91, wh: 13.42, conf: 105.95, class: 1411.44 | Last batch: rec: 0.262, prec: 0.000 | lr: 3.2275e-05
+Tue, 18 May 2021 13:45:57 INFO Epoch: 0, global_step: 5800 | loss: total: 1516.09, xy: 7.90, wh: 13.35, conf: 104.71, class: 1390.13 | Last batch: rec: 0.179, prec: 0.000 | lr: 3.2841e-05
+Tue, 18 May 2021 13:46:56 INFO Epoch: 1, global_step: 5900 | loss: total: 199.40, xy: 6.05, wh: 8.38, conf: 29.79, class: 155.18 | Last batch: rec: 0.123, prec: 0.000 | lr: 3.3407e-05
+Tue, 18 May 2021 13:47:50 INFO Epoch: 1, global_step: 6000 | loss: total: 214.81, xy: 6.48, wh: 8.89, conf: 32.54, class: 166.89 | Last batch: rec: 0.264, prec: 0.000 | lr: 3.3973e-05
+Tue, 18 May 2021 13:48:44 INFO Epoch: 1, global_step: 6100 | loss: total: 215.57, xy: 6.54, wh: 8.78, conf: 32.85, class: 167.39 | Last batch: rec: 0.154, prec: 0.000 | lr: 3.4539e-05
+Tue, 18 May 2021 13:49:37 INFO Epoch: 1, global_step: 6200 | loss: total: 214.29, xy: 6.59, wh: 9.08, conf: 32.86, class: 165.75 | Last batch: rec: 0.182, prec: 0.000 | lr: 3.5106e-05
+Tue, 18 May 2021 13:50:31 INFO Epoch: 1, global_step: 6300 | loss: total: 214.11, xy: 6.61, wh: 9.24, conf: 32.90, class: 165.37 | Last batch: rec: 0.171, prec: 0.000 | lr: 3.5672e-05
+Tue, 18 May 2021 13:51:25 INFO Epoch: 1, global_step: 6400 | loss: total: 213.56, xy: 6.57, wh: 9.31, conf: 32.83, class: 164.84 | Last batch: rec: 0.186, prec: 0.000 | lr: 3.6238e-05
+Tue, 18 May 2021 13:52:19 INFO Epoch: 1, global_step: 6500 | loss: total: 214.04, xy: 6.62, wh: 9.37, conf: 32.93, class: 165.12 | Last batch: rec: 0.221, prec: 0.000 | lr: 3.6804e-05
+Tue, 18 May 2021 13:53:12 INFO Epoch: 1, global_step: 6600 | loss: total: 213.78, xy: 6.62, wh: 9.42, conf: 32.95, class: 164.80 | Last batch: rec: 0.158, prec: 0.000 | lr: 3.737e-05
+Tue, 18 May 2021 13:54:05 INFO Epoch: 1, global_step: 6700 | loss: total: 214.27, xy: 6.61, wh: 9.43, conf: 32.95, class: 165.28 | Last batch: rec: 0.224, prec: 0.000 | lr: 3.7937e-05
+Tue, 18 May 2021 13:54:59 INFO Epoch: 1, global_step: 6800 | loss: total: 213.25, xy: 6.60, wh: 9.43, conf: 32.87, class: 164.35 | Last batch: rec: 0.320, prec: 0.000 | lr: 3.8503e-05
+Tue, 18 May 2021 13:55:51 INFO Epoch: 1, global_step: 6900 | loss: total: 212.40, xy: 6.60, wh: 9.50, conf: 32.84, class: 163.47 | Last batch: rec: 0.185, prec: 0.000 | lr: 3.9069e-05
+Tue, 18 May 2021 13:56:45 INFO Epoch: 1, global_step: 7000 | loss: total: 212.19, xy: 6.61, wh: 9.59, conf: 32.89, class: 163.10 | Last batch: rec: 0.344, prec: 0.000 | lr: 3.9635e-05
+Tue, 18 May 2021 13:57:38 INFO Epoch: 1, global_step: 7100 | loss: total: 211.95, xy: 6.62, wh: 9.62, conf: 32.92, class: 162.79 | Last batch: rec: 0.258, prec: 0.000 | lr: 4.0202e-05
+Tue, 18 May 2021 13:58:30 INFO Epoch: 1, global_step: 7200 | loss: total: 211.23, xy: 6.62, wh: 9.63, conf: 32.91, class: 162.08 | Last batch: rec: 0.266, prec: 0.000 | lr: 4.0768e-05
+Tue, 18 May 2021 13:59:23 INFO Epoch: 1, global_step: 7300 | loss: total: 210.76, xy: 6.62, wh: 9.65, conf: 32.92, class: 161.57 | Last batch: rec: 0.315, prec: 0.000 | lr: 4.1334e-05
+Tue, 18 May 2021 14:00:16 INFO Epoch: 1, global_step: 7400 | loss: total: 210.39, xy: 6.62, wh: 9.68, conf: 32.96, class: 161.13 | Last batch: rec: 0.286, prec: 0.000 | lr: 4.19e-05
+Tue, 18 May 2021 14:01:08 INFO Epoch: 1, global_step: 7500 | loss: total: 210.02, xy: 6.62, wh: 9.68, conf: 32.99, class: 160.73 | Last batch: rec: 0.302, prec: 0.000 | lr: 4.2466e-05
+Tue, 18 May 2021 14:01:59 INFO Epoch: 1, global_step: 7600 | loss: total: 209.57, xy: 6.62, wh: 9.71, conf: 32.99, class: 160.25 | Last batch: rec: 0.394, prec: 0.000 | lr: 4.3033e-05
+Tue, 18 May 2021 14:02:51 INFO Epoch: 1, global_step: 7700 | loss: total: 209.06, xy: 6.61, wh: 9.72, conf: 32.99, class: 159.74 | Last batch: rec: 0.312, prec: 0.000 | lr: 4.3599e-05
+Tue, 18 May 2021 14:03:43 INFO Epoch: 1, global_step: 7800 | loss: total: 208.22, xy: 6.59, wh: 9.72, conf: 32.94, class: 158.96 | Last batch: rec: 0.284, prec: 0.000 | lr: 4.4165e-05
+Tue, 18 May 2021 14:04:35 INFO Epoch: 1, global_step: 7900 | loss: total: 207.63, xy: 6.59, wh: 9.71, conf: 32.92, class: 158.41 | Last batch: rec: 0.356, prec: 0.000 | lr: 4.4731e-05
+Tue, 18 May 2021 14:05:27 INFO Epoch: 1, global_step: 8000 | loss: total: 207.05, xy: 6.58, wh: 9.72, conf: 32.91, class: 157.84 | Last batch: rec: 0.322, prec: 0.000 | lr: 4.5298e-05
+Tue, 18 May 2021 14:06:20 INFO Epoch: 1, global_step: 8100 | loss: total: 206.45, xy: 6.56, wh: 9.73, conf: 32.86, class: 157.30 | Last batch: rec: 0.316, prec: 0.000 | lr: 4.5864e-05
+Tue, 18 May 2021 14:07:11 INFO Epoch: 1, global_step: 8200 | loss: total: 206.35, xy: 6.57, wh: 9.79, conf: 32.90, class: 157.09 | Last batch: rec: 0.184, prec: 0.000 | lr: 4.643e-05
+Tue, 18 May 2021 14:08:04 INFO Epoch: 1, global_step: 8300 | loss: total: 205.73, xy: 6.56, wh: 9.77, conf: 32.87, class: 156.53 | Last batch: rec: 0.242, prec: 0.000 | lr: 4.6996e-05
+Tue, 18 May 2021 14:08:56 INFO Epoch: 1, global_step: 8400 | loss: total: 205.61, xy: 6.57, wh: 9.80, conf: 32.92, class: 156.33 | Last batch: rec: 0.388, prec: 0.000 | lr: 4.7562e-05
+Tue, 18 May 2021 14:09:47 INFO Epoch: 1, global_step: 8500 | loss: total: 205.21, xy: 6.56, wh: 9.80, conf: 32.92, class: 155.93 | Last batch: rec: 0.250, prec: 0.000 | lr: 4.8129e-05
+Tue, 18 May 2021 14:10:39 INFO Epoch: 1, global_step: 8600 | loss: total: 204.97, xy: 6.57, wh: 9.83, conf: 32.94, class: 155.63 | Last batch: rec: 0.338, prec: 0.000 | lr: 4.8695e-05
+Tue, 18 May 2021 14:11:31 INFO Epoch: 1, global_step: 8700 | loss: total: 204.58, xy: 6.56, wh: 9.84, conf: 32.94, class: 155.23 | Last batch: rec: 0.359, prec: 0.000 | lr: 4.9261e-05
+Tue, 18 May 2021 14:12:23 INFO Epoch: 1, global_step: 8800 | loss: total: 204.09, xy: 6.56, wh: 9.86, conf: 32.93, class: 154.74 | Last batch: rec: 0.325, prec: 0.000 | lr: 4.9827e-05
+Tue, 18 May 2021 14:13:15 INFO Epoch: 1, global_step: 8900 | loss: total: 203.50, xy: 6.55, wh: 9.86, conf: 32.90, class: 154.20 | Last batch: rec: 0.187, prec: 0.000 | lr: 5.0394e-05
+Tue, 18 May 2021 14:14:06 INFO Epoch: 1, global_step: 9000 | loss: total: 203.29, xy: 6.56, wh: 9.88, conf: 32.93, class: 153.93 | Last batch: rec: 0.494, prec: 0.000 | lr: 5.096e-05
+Tue, 18 May 2021 14:14:58 INFO Epoch: 1, global_step: 9100 | loss: total: 203.00, xy: 6.56, wh: 9.91, conf: 32.94, class: 153.60 | Last batch: rec: 0.583, prec: 0.000 | lr: 5.1526e-05
+Tue, 18 May 2021 14:15:49 INFO Epoch: 1, global_step: 9200 | loss: total: 202.75, xy: 6.56, wh: 9.92, conf: 32.96, class: 153.32 | Last batch: rec: 0.308, prec: 0.000 | lr: 5.2092e-05
+Tue, 18 May 2021 14:16:41 INFO Epoch: 1, global_step: 9300 | loss: total: 202.64, xy: 6.57, wh: 9.95, conf: 33.00, class: 153.13 | Last batch: rec: 0.432, prec: 0.000 | lr: 5.2658e-05
+Tue, 18 May 2021 14:17:32 INFO Epoch: 1, global_step: 9400 | loss: total: 202.31, xy: 6.57, wh: 9.96, conf: 33.01, class: 152.77 | Last batch: rec: 0.283, prec: 0.000 | lr: 5.3225e-05
+Tue, 18 May 2021 14:18:24 INFO Epoch: 1, global_step: 9500 | loss: total: 201.99, xy: 6.57, wh: 9.96, conf: 33.02, class: 152.44 | Last batch: rec: 0.345, prec: 0.000 | lr: 5.3791e-05
+Tue, 18 May 2021 14:19:15 INFO Epoch: 1, global_step: 9600 | loss: total: 201.72, xy: 6.57, wh: 9.97, conf: 33.03, class: 152.15 | Last batch: rec: 0.443, prec: 0.000 | lr: 5.4357e-05
+Tue, 18 May 2021 14:20:07 INFO Epoch: 1, global_step: 9700 | loss: total: 201.09, xy: 6.55, wh: 9.99, conf: 32.98, class: 151.57 | Last batch: rec: 0.388, prec: 0.000 | lr: 5.4923e-05
+Tue, 18 May 2021 14:20:59 INFO Epoch: 1, global_step: 9800 | loss: total: 200.64, xy: 6.55, wh: 10.00, conf: 32.97, class: 151.11 | Last batch: rec: 0.341, prec: 0.000 | lr: 5.5489e-05
+Tue, 18 May 2021 14:21:50 INFO Epoch: 1, global_step: 9900 | loss: total: 200.21, xy: 6.54, wh: 10.02, conf: 32.95, class: 150.70 | Last batch: rec: 0.373, prec: 0.000 | lr: 5.6056e-05
+Tue, 18 May 2021 14:22:41 INFO Epoch: 1, global_step: 10000 | loss: total: 199.96, xy: 6.54, wh: 10.04, conf: 32.97, class: 150.40 | Last batch: rec: 0.442, prec: 0.000 | lr: 5.6622e-05
+Tue, 18 May 2021 14:23:33 INFO Epoch: 1, global_step: 10100 | loss: total: 199.66, xy: 6.55, wh: 10.07, conf: 33.00, class: 150.04 | Last batch: rec: 0.490, prec: 0.000 | lr: 5.7188e-05
+Tue, 18 May 2021 14:24:24 INFO Epoch: 1, global_step: 10200 | loss: total: 199.30, xy: 6.54, wh: 10.08, conf: 32.99, class: 149.69 | Last batch: rec: 0.378, prec: 0.000 | lr: 5.7754e-05
+Tue, 18 May 2021 14:25:16 INFO Epoch: 1, global_step: 10300 | loss: total: 198.76, xy: 6.54, wh: 10.09, conf: 32.95, class: 149.18 | Last batch: rec: 0.543, prec: 0.000 | lr: 5.8321e-05
+Tue, 18 May 2021 14:26:09 INFO Epoch: 1, global_step: 10400 | loss: total: 198.48, xy: 6.54, wh: 10.11, conf: 32.97, class: 148.86 | Last batch: rec: 0.302, prec: 0.000 | lr: 5.8887e-05
+Tue, 18 May 2021 14:27:02 INFO Epoch: 1, global_step: 10500 | loss: total: 198.17, xy: 6.54, wh: 10.10, conf: 32.98, class: 148.55 | Last batch: rec: 0.384, prec: 0.000 | lr: 5.9453e-05
+Tue, 18 May 2021 14:27:56 INFO Epoch: 1, global_step: 10600 | loss: total: 197.84, xy: 6.53, wh: 10.12, conf: 32.98, class: 148.21 | Last batch: rec: 0.443, prec: 0.000 | lr: 6.0019e-05
+Tue, 18 May 2021 14:28:49 INFO Epoch: 1, global_step: 10700 | loss: total: 197.39, xy: 6.52, wh: 10.12, conf: 32.95, class: 147.79 | Last batch: rec: 0.247, prec: 0.000 | lr: 6.0585e-05
+Tue, 18 May 2021 14:29:41 INFO Epoch: 1, global_step: 10800 | loss: total: 197.06, xy: 6.52, wh: 10.13, conf: 32.96, class: 147.46 | Last batch: rec: 0.544, prec: 0.000 | lr: 6.1152e-05
+Tue, 18 May 2021 14:30:32 INFO Epoch: 1, global_step: 10900 | loss: total: 196.79, xy: 6.52, wh: 10.15, conf: 32.97, class: 147.15 | Last batch: rec: 0.466, prec: 0.000 | lr: 6.1718e-05
+Tue, 18 May 2021 14:31:25 INFO Epoch: 1, global_step: 11000 | loss: total: 196.62, xy: 6.52, wh: 10.18, conf: 32.98, class: 146.93 | Last batch: rec: 0.331, prec: 0.000 | lr: 6.2284e-05
+Tue, 18 May 2021 14:32:17 INFO Epoch: 1, global_step: 11100 | loss: total: 196.35, xy: 6.53, wh: 10.20, conf: 32.99, class: 146.63 | Last batch: rec: 0.306, prec: 0.000 | lr: 6.285e-05
+Tue, 18 May 2021 14:33:09 INFO Epoch: 1, global_step: 11200 | loss: total: 196.15, xy: 6.52, wh: 10.22, conf: 33.00, class: 146.41 | Last batch: rec: 0.415, prec: 0.001 | lr: 6.3417e-05
+Tue, 18 May 2021 14:34:01 INFO Epoch: 1, global_step: 11300 | loss: total: 195.87, xy: 6.52, wh: 10.23, conf: 33.01, class: 146.11 | Last batch: rec: 0.506, prec: 0.000 | lr: 6.3983e-05
+Tue, 18 May 2021 14:34:53 INFO Epoch: 1, global_step: 11400 | loss: total: 195.52, xy: 6.52, wh: 10.24, conf: 33.00, class: 145.76 | Last batch: rec: 0.355, prec: 0.000 | lr: 6.4549e-05
+Tue, 18 May 2021 14:35:45 INFO Epoch: 1, global_step: 11500 | loss: total: 195.13, xy: 6.51, wh: 10.25, conf: 32.98, class: 145.39 | Last batch: rec: 0.367, prec: 0.000 | lr: 6.5115e-05
+Tue, 18 May 2021 14:36:38 INFO Epoch: 1, global_step: 11600 | loss: total: 194.90, xy: 6.51, wh: 10.27, conf: 32.98, class: 145.14 | Last batch: rec: 0.624, prec: 0.002 | lr: 6.5681e-05
+Tue, 18 May 2021 14:37:31 INFO Epoch: 1, global_step: 11700 | loss: total: 194.67, xy: 6.51, wh: 10.28, conf: 32.99, class: 144.89 | Last batch: rec: 0.378, prec: 0.001 | lr: 6.6248e-05
+Tue, 18 May 2021 14:38:24 INFO Epoch: 2, global_step: 11800 | loss: total: 168.87, xy: 6.14, wh: 10.37, conf: 31.96, class: 120.40 | Last batch: rec: 0.321, prec: 0.001 | lr: 6.6814e-05
+Tue, 18 May 2021 14:39:17 INFO Epoch: 2, global_step: 11900 | loss: total: 173.11, xy: 6.24, wh: 10.67, conf: 32.68, class: 123.52 | Last batch: rec: 0.317, prec: 0.001 | lr: 6.738e-05
+Tue, 18 May 2021 14:40:09 INFO Epoch: 2, global_step: 12000 | loss: total: 172.90, xy: 6.30, wh: 10.87, conf: 32.83, class: 122.90 | Last batch: rec: 0.355, prec: 0.001 | lr: 6.7946e-05
+Tue, 18 May 2021 14:41:02 INFO Epoch: 2, global_step: 12100 | loss: total: 172.05, xy: 6.31, wh: 10.93, conf: 32.66, class: 122.15 | Last batch: rec: 0.376, prec: 0.000 | lr: 6.8513e-05
+Tue, 18 May 2021 14:41:54 INFO Epoch: 2, global_step: 12200 | loss: total: 171.49, xy: 6.27, wh: 10.93, conf: 32.47, class: 121.82 | Last batch: rec: 0.490, prec: 0.001 | lr: 6.9079e-05
+Tue, 18 May 2021 14:42:46 INFO Epoch: 2, global_step: 12300 | loss: total: 171.96, xy: 6.29, wh: 10.92, conf: 32.42, class: 122.33 | Last batch: rec: 0.536, prec: 0.001 | lr: 6.9645e-05
+Tue, 18 May 2021 14:43:37 INFO Epoch: 2, global_step: 12400 | loss: total: 171.83, xy: 6.30, wh: 10.99, conf: 32.49, class: 122.05 | Last batch: rec: 0.577, prec: 0.001 | lr: 7.0211e-05
+Tue, 18 May 2021 14:44:28 INFO Epoch: 2, global_step: 12500 | loss: total: 171.58, xy: 6.30, wh: 11.06, conf: 32.45, class: 121.77 | Last batch: rec: 0.397, prec: 0.001 | lr: 7.0777e-05
+Tue, 18 May 2021 14:45:19 INFO Epoch: 2, global_step: 12600 | loss: total: 171.61, xy: 6.30, wh: 11.07, conf: 32.55, class: 121.69 | Last batch: rec: 0.358, prec: 0.000 | lr: 7.1344e-05
+Tue, 18 May 2021 14:46:11 INFO Epoch: 2, global_step: 12700 | loss: total: 171.90, xy: 6.31, wh: 11.08, conf: 32.66, class: 121.85 | Last batch: rec: 0.426, prec: 0.001 | lr: 7.191e-05
+Tue, 18 May 2021 14:47:05 INFO Epoch: 2, global_step: 12800 | loss: total: 172.06, xy: 6.32, wh: 11.17, conf: 32.68, class: 121.89 | Last batch: rec: 0.469, prec: 0.000 | lr: 7.2476e-05
+Tue, 18 May 2021 14:47:57 INFO Epoch: 2, global_step: 12900 | loss: total: 171.85, xy: 6.31, wh: 11.16, conf: 32.70, class: 121.67 | Last batch: rec: 0.409, prec: 0.001 | lr: 7.3042e-05
+Tue, 18 May 2021 14:48:50 INFO Epoch: 2, global_step: 13000 | loss: total: 171.76, xy: 6.32, wh: 11.23, conf: 32.67, class: 121.54 | Last batch: rec: 0.366, prec: 0.001 | lr: 7.3609e-05
+Tue, 18 May 2021 14:49:42 INFO Epoch: 2, global_step: 13100 | loss: total: 171.96, xy: 6.32, wh: 11.24, conf: 32.73, class: 121.67 | Last batch: rec: 0.454, prec: 0.000 | lr: 7.4175e-05
+Tue, 18 May 2021 14:50:36 INFO Epoch: 2, global_step: 13200 | loss: total: 172.12, xy: 6.33, wh: 11.28, conf: 32.76, class: 121.75 | Last batch: rec: 0.420, prec: 0.001 | lr: 7.4741e-05
+Tue, 18 May 2021 14:51:29 INFO Epoch: 2, global_step: 13300 | loss: total: 172.47, xy: 6.35, wh: 11.33, conf: 32.86, class: 121.94 | Last batch: rec: 0.583, prec: 0.001 | lr: 7.5307e-05
